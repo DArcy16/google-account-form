@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Sign Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <form>
+          <h1 class="title">Create Your Google Account</h1>
+          <div class="form-control">
+            <input class="form-input" type="text" name="first-name" placeholder="First Name"/>
+            <input class="form-input" type="text" name="last-name" placeholder="Last Name"/>
+          </div>
+          <div  class="form-control">
+            <input class="form-input" type="email" name="email" placeholder="Email"/>
+          </div>
+          <small>You can use letters, numbers & periods</small>
+          <div class="form-control">
+            <input class="form-input" type="password" name="password" placeholder="Password"/>
+            <input class="form-input" type="password" name="confirm-pwd" placeholder="Confirm"/>
+          </div>
+          <small
+            >Use 8 or more characters with a mix of letters, numbers &
+            symbols</small
+          >
+          <div class="form-control">
+            <input id="show-password" type="checkbox" name="show-password" />
+            <label for="show-password">Show Password</label>
+          </div>
+          <div class="btn">
+            <a href="#">Sign in instead</a>
+            <button type="submit"> Sign Up </button>
+          </div>
+        </form>
+      </div>
+      <div class="image-container">
+        <img src="images/google-account.svg" alt="google-account svg" />
+        <p>One Account. All of Google working for you.</p>
+      </div>
+    </div>
+  </body>
+</html>
